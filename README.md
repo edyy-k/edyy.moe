@@ -1,0 +1,3 @@
+# edyy.moe
+
+WIP
