@@ -1,0 +1,54 @@
+.center-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  span.name {
+    font-family: 'Nunito-ExtraLight', sans-serif;
+    font-size: 150px
+  }
+}
+
+.social-media-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 40%;
+
+  .links {
+    display: inline-flex;
+    align-items: center;
+
+    svg {
+      width: 30px;
+      height: 30px;
+      fill: white;
+      transition: $transition;
+    }
+
+    .link-text {
+      padding: 0 10px;
+    }
+
+    &:hover {
+      svg {
+        fill: $hover-color;
+      }
+    }
+  }
+}
+
+@media (max-width: $laptop-breakpoint) {
+  .social-media-container {
+    padding: 0 20%;
+  }
+}
+
+@media (max-width: $mobile-m-breakpoint) {
+  .social-media-container {
+    padding: 0;
+  }
+}
+

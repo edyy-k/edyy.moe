@@ -1,0 +1,10 @@
+/build_local/
+/build_staging/
+/source/assets/build/
+/cache/
+/node_modules/
+/vendor/
+/.idea/
+/.vscode/
+npm-debug.log
+yarn-error.log
